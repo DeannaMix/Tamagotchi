@@ -10,7 +10,7 @@ const makeCard = (quadrant) => {
   $(`#${actionName}`).html(`
     <div class="pet-card-${actionName}">
         <h1 class="card-name">${actionName}</h1>
-        <div class="level-info"> Click to interact with your pet!</div>
+        <div class="level-info"> Click to interact with your hamham!</div>
         <div class="buttons">
             <button class="do-something" id="button1-${actionName}">${button1}</button>
             <button class="do-something" id="button2-${actionName}">${button2}</button>
