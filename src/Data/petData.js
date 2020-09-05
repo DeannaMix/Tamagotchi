@@ -1,6 +1,6 @@
 const cardData = [
   {
-    actionName: 'eating',
+    actionName: 'eat',
     button1: 'Eat: Healthy Food',
     button2: 'Eat: Unhealthy Food',
     level: 100,
