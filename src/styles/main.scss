@@ -10,12 +10,22 @@ body {
 
 #quad-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .placement {
   width: 50%;
   text-align: center;
   margin-top: 30px;
-  border: 5px solid red;
+  border: 5px solid rgb(35, 81, 112);
+  border-radius: 10%;
+  margin: 1em;
+  padding-bottom: 1em;
+  background: rgb(236, 134, 61);
+}
+
+.level-info {
+  font-size: 20px;
+  color: rgb(87, 35, 74);
+  font-family:  monospace;
 }
