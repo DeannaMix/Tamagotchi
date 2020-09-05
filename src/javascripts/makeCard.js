@@ -19,13 +19,17 @@ const makeCard = (quadrant) => {
     </div>
     `);
   $(`#button1-${actionName}`).on('click', () => {
-    // eslint-disable-next-line
-    quadrant.level = quadrant.level + buttonChange1;;
+    if (level + buttonChange1 < 100) {
+      // eslint-disable-next-line
+      quadrant.level = quadrant.level + buttonChange1;
+    }
     makeCard(quadrant);
   });
   $(`#button2-${actionName}`).on('click', () => {
-    // eslint-disable-next-line
-    quadrant.level = quadrant.level + buttonChange2;;
+    if (level + buttonChange2 < 100) {
+      // eslint-disable-next-line
+      quadrant.level = quadrant.level + buttonChange2;
+    }
     makeCard(quadrant);
   });
 };
