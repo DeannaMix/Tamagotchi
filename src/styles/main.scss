@@ -2,8 +2,20 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(131, 143, 216);
+  color: rgb(136, 39, 39);
   text-align: center;
   margin-top: 100px;
+}
+
+#quad-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.placement {
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  border: 5px solid red;
 }
