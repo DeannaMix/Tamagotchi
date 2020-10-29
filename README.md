@@ -1,4 +1,4 @@
-# Hamtaro Tamagatchi
+# Hamtaro Tamagotchi
 
 ## Tamagatchi project for NSS Evening Cohort 13
 
