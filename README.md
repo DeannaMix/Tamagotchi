@@ -1,6 +1,6 @@
 # Hamtaro Tamagotchi
 
-## Tamagatchi project for NSS Evening Cohort 13
+## Tamagotchi project for NSS Evening Cohort 13
 
 ## Description
 Did you miss the Tamagatchis from your childhood? Well you are in luck! Now you can play with a Hamtaro Tamagatchi. Made for a project at Nashville Software School. You can get your Hamtaro to eat, play, sleep, and fight (gently) with the click of a button. Value limits do not exceed 100. Have fun!
